@@ -1,0 +1,12 @@
+CREATE DATABASE SpaceXDb;
+GO
+
+USE SpaceXDb;
+GO
+
+CREATE TABLE Launches (
+    Id VARCHAR(100) PRIMARY KEY,
+    Name NVARCHAR(255),
+    DateUtc DATETIME,
+    Rocket NVARCHAR(255)
+);
